@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: gold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+    border-bottom: 4px solid purple;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: purple;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding-left: 16px;
+}
+
+li a {
+    color: purple;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
